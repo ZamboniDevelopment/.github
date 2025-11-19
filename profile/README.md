@@ -1,11 +1,15 @@
-## Custom server for NHL 10
+## Custom servers for NHL Games
 
 - Community Discord: https://discord.com/invite/dsAz2g9S8v
+  
 - RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=NHL_10
+- RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=NHL_11
 
 ## Project Structure
 ### Zamboni
-  - A C# Server Program, that responds to client requests
+  - A C# Server Program, that responds to client requests for NHL 10 clients
+### Zamboni11
+  - A C# Server Program, that responds to client requests for NHL 11 clients
 ### BlazeSDK
   - SDK (a Framework) made by [@Aim4kill](https://github.com/Aim4kill)
   - Used by Zamboni to respond to client using a said protocol
@@ -21,7 +25,10 @@
 ### Website
   - Website hosted in https://zamboni.gg/
   - Displays server status
-  - Displays statistics about played games from yet not open source api
+  - Displays statistics about played games
+  - Maintained by [@dtzdev](https://github.com/dtzdev)
+### DiscordBot
+  - A polling bot displaying server status
     
 ## Credits and Resources
 
