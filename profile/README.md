@@ -1,15 +1,18 @@
-## Custom servers for NHL Games
+## Custom servers for NHL Games, Currently playable only in RPCS3!
 
 - Community Discord: https://discord.com/invite/dsAz2g9S8v
-  
-- RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=NHL_10
-- RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=NHL_11
 
 ## Project Structure
 ### Zamboni
   - A C# Server Program, that responds to client requests for NHL 10 clients
 ### Zamboni11
   - A C# Server Program, that responds to client requests for NHL 11 clients
+### Zamboni14Legacy
+  - A C# Server Program, that responds to client requests for NHL 14/Legacy clients
+### TheDirector
+  - A Separate redirector instance.
+  - Redirecting clients to the right servers
+  - Needed because games listen on the same redirector port
 ### BlazeSDK
   - SDK (a Framework) made by [@Aim4kill](https://github.com/Aim4kill)
   - Used by Zamboni to respond to client using a said protocol
