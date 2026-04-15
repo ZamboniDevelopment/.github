@@ -1,14 +1,18 @@
 ## Custom servers for NHL Games, Currently playable only in RPCS3!
 
-- Community Discord: https://discord.com/invite/dsAz2g9S8v
+- Community [Discord](https://zamboni.gg/discord)
 
 ## Project Structure
 ### Zamboni
   - A C# Server Program, that responds to client requests for NHL 10 clients
 ### Zamboni11
   - A C# Server Program, that responds to client requests for NHL 11 clients
-### Zamboni14Legacy
-  - A C# Server Program, that responds to client requests for NHL 14/Legacy clients
+### Zamboni3
+  - A C# Server Program, that responds to client requests for NHL 12-15 clients
+### ZamboniUltimateTeam
+  - Subproject implementing ultimate team features
+### ZamboniCommonComponents
+  - Subproject implementing NHL specific components
 ### TheDirector
   - A Separate redirector instance.
   - Redirecting clients to the right servers
@@ -25,17 +29,17 @@
   - Game patches in PowerPC assembly, in rpcs3 patching format.
   - Game patches need to be applied for the game to be played online
   - Needed for the time being, because the server is not a perfect 1:1 to original
-### Website
-  - Website hosted in https://zamboni.gg/
-  - Displays server status
-  - Displays statistics about played games
+### [Website](https://zamboni.gg/)
+  - Displays server status and statistics about played games
   - Maintained by [@dtzdev](https://github.com/dtzdev)
+### [Zamboni-League](https://zamboni.gg/league)
+  - Visualizes currently ongoing league teams/statistics/results
+  - [Repository](https://github.com/jfmartineau45/zamboni-league) Maintained by [@jfmartineau45](https://github.com/jfmartineau45)
 ### DiscordBot
   - A polling bot displaying server status
-    
 ## Credits and Resources
 
-- [BlazeSDK](https://github.com/Aim4kill/BlazeSDK) By [@Aim4kill](https://github.com/Aim4kill)
+- [BlazeSDK](https://github.com/Aim4kill/BlazeSDK) & [SceNetNp](https://github.com/Aim4kill/PSN) & [ProtoSSL Bug](https://github.com/Aim4kill/Bug_OldProtoSSL) By [@Aim4kill](https://github.com/Aim4kill)
 - [ME3PSE](https://github.com/PrivateServerEmulator/ME3PSE) By [@WarrantyVoider](https://github.com/zeroKilo) [@Erik-JS](https://github.com/Erik-JS)
 - [BFP4FToolsWV](https://github.com/zeroKilo/BFP4FToolsWV) & [BFP4FToolsWV Wiki](https://github.com/zeroKilo/BFP4FToolsWV/wiki) By [@WarrantyVoider](https://github.com/zeroKilo)
 - [PocketRelay](https://github.com/PocketRelay) & [jacobtread/tdf](https://github.com/jacobtread/tdf) By [@jacobtread](https://github.com/jacobtread/)
@@ -45,4 +49,5 @@
 - [recap_server](https://github.com/vitor251093/recap_server) By [@vitor251093](https://github.com/vitor251093) and [@dalkon](https://github.com/dalkon)
 - [openBlase](https://github.com/openBlase/openBlase) By [@openBlase](https://github.com/openBlase/openBlase)
 - [BF4BlazeEmulator](https://github.com/buchacho/BF4BlazeEmulator) By [@buchacho](https://github.com/buchacho)
+- [Skate3BlazeServer](https://github.com/skate6743/Skate3BlazeServer) By [@Wispp](https://github.com/skate6743)
 - [@the1Domo](https://github.com/g91)
