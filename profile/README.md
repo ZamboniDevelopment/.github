@@ -8,7 +8,7 @@
 ### Zamboni11
   - A C# Server Program, that responds to client requests for NHL 11 clients
 ### Zamboni3
-  - A C# Server Program, that responds to client requests for NHL 12-15 clients
+  - A C# Server Program, that responds to client requests for NHL 12-Legacy clients
 ### ZamboniUltimateTeam
   - Subproject implementing ultimate team features
 ### ZamboniCommonComponents
