@@ -43,6 +43,10 @@
 ## 📝 TODO / Roadmap
 
 ### 1. Functionality
+- [ ] **Rosters/Tuners:** Implement sending rosters and tuners with the server. Since we currently rely on a gamepatch to skip that functionality to even play.
+- This step will bring us closer to RPCS3 vs PS3 or and PS3 functionality on the sever.
+- This can make matchmaking more consistent since players don't have to match rosters outside of the game, only inside of the game.
+- Client will hapilly download anything with octet stream from an URL we provide, But the question is more on what we will have to input to client.
 - [ ] **Invites (NHL 11–15):** Fix and restore invite functionality. Note that behavior changed significantly starting from NHL 11 and up.
 - [ ] **OTP (6v6s):** Investigate and fix the desync issue that occurs at the start of the match.
 - [ ] **EASHL:** Look into EASHL implementation (will likely require the OTP desync fix to even play games).
