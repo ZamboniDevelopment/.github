@@ -51,13 +51,17 @@
 - [ ] **OTP (6v6s):** Investigate and fix the desync issue that occurs at the start of the match.
 - [ ] **EASHL:** Look into EASHL implementation (will likely require the OTP desync fix to even play games).
 - [ ] **GM Connected:** Investigate implementation.
+- [ ] **Xenia Compatibility:** Investigate implementation.
+- [ ] **Original Hardware Compatibility:** First we need to get rid of gamepatch ie sending rosterdata from server.
+- [ ] **Crossplay PS3/RPCS3:** First we would need Original Hardware Compatibility
 
 ### 2. Hockey Ultimate Team (HUT)
 - [ ] **Cross-Title Porting:** Implement HUT functionality across all other supported titles.
-- [ ] **Refactor Packs:** Packs and their loot needs a big refactor.
+- [x] **Refactor Packs:** Packs and their loot needs a big refactor.
 - [ ] **Online Tournaments:** Implement online tournament functionality.
 - [ ] **Leaderboards:** Menu is not implemented, it relays on StatsComponent which we have currently stubbed.
 - [ ] **Mobile App:** Nah we wont probably actually do this :D
+- [ ] **Max salary cap:** Investigate how Max salary cap is controlled from the server.
 
 ### 3. Data analysis
 - Implement and display more graphs from played games.
