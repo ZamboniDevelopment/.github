@@ -4,11 +4,9 @@
 
 ## Project Structure
 ### Zamboni
-  - A C# Server Program, that responds to client requests for NHL 10 clients
-### Zamboni11
-  - A C# Server Program, that responds to client requests for NHL 11 clients
+  - A C# Server Program, that responds to client requests for NHL 10 clients (Blaze 2.x)
 ### Zamboni3
-  - A C# Server Program, that responds to client requests for NHL 12-Legacy clients
+  - A C# Server Program, that responds to client requests for NHL 11-Legacy clients (Blaze 3.x)
 ### ZamboniUltimateTeam
   - Subproject implementing ultimate team features
 ### ZamboniCommonComponents
@@ -21,6 +19,11 @@
   - SDK (a Framework) made by [@Aim4kill](https://github.com/Aim4kill)
   - Used by Zamboni to respond to client using a said protocol
   - Minor changes made to it to make it compatible
+### ZamboniGameServerProvider/ZProtocol (Formerly: Relay/RelayProtocol)
+  - A protocol that messages between a GameServerProvider and a matchmaking server
+  - In charge of hosting dedicated games or packet forwarded (relayed) H2H games.
+### ZamboniDedicated
+  - A server program that can host Online Team Play games. (1v1+ games)
 ### Skateboard3Server.Qos
   - A QoS Server made by [@Hall of Meat Team](https://github.com/hallofmeat)
   - A server responding to client with minimal QoS data, which is needed by the client
@@ -37,8 +40,6 @@
   - [Repository](https://github.com/jfmartineau45/zamboni-league) Created/Maintained by [@jfmartineau45](https://github.com/jfmartineau45)
 ### DiscordBot
   - A polling bot displaying server status
-### Relay/Protocol
-  - A protocol that messages between relays and a matchmaking server
 
 ## 📝 TODO / Roadmap
 
@@ -48,7 +49,7 @@
 - This can make matchmaking more consistent since players don't have to match rosters outside of the game, only inside of the game.
 - Client will hapilly download anything with octet stream from an URL we provide, But the question is more on what we will have to input to client.
 - [ ] **Invites (NHL 11–15):** Fix and restore invite functionality. Note that behavior changed significantly starting from NHL 11 and up.
-- [ ] **OTP (6v6s):** Investigate and fix the desync issue that occurs at the start of the match.
+- [x] **OTP (6v6s):**
 - [ ] **EASHL:** Look into EASHL implementation (will likely require the OTP desync fix to even play games).
 - [ ] **GM Connected:** Investigate implementation.
 - [ ] **Xenia Compatibility:** Investigate implementation.
